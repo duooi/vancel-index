@@ -1,0 +1,537 @@
+/*-------header--------*/
+#header{
+	background-color:#f7f7f7;
+	height: 32px;
+	border-bottom:1px solid #ccc;
+	font-family: "微软雅黑";
+	clear: both;
+}
+
+/*top-nav*/
+.top-nav{
+	width:1200px;
+	height:32px;
+	margin:0 auto;
+	line-height: 32px;
+	clear:both;
+}
+
+.welcome{
+	float:left;
+}
+
+.top-nav,.top-nav a{
+	color:#808080;
+}
+
+.welcome .login a{
+	padding:0 13px;
+}
+
+.welcome .aboutme{
+	display: inline-block;
+}
+
+.welcome .aboutme li{
+	display: inline-block;
+	padding-right:13px;
+}
+
+.welcome .aboutme li a:hover{
+	color: #c00;
+}
+
+.helper{
+	height:32px;
+	float:right;
+	margin-right:150px;
+}
+
+.nav-content li{
+	float:right;
+	height:32px;
+	padding:0 10px;
+}
+
+.nav-content li a:hover{
+	color:#c00;
+}
+
+.logo{
+	width:50px;
+	height:32px;
+	float:right;
+}
+
+.logo span{
+	display:block;
+	float:left;
+	width:18px;
+	height:32px;
+	margin:0 3px;
+}
+
+.logo .weixin{
+	background: url("http://i1.vanclimg.com/cms/20150605/w1.jpg") no-repeat center center;
+}
+
+.logo .weibo{
+	background: url("http://i2.vanclimg.com/cms/20150605/w2.jpg") no-repeat center center;
+}
+
+/*logo-search*/
+.logo-search{
+	width:1200px;
+	height:95px;
+	margin:0 auto;
+	line-height:95px;
+}
+
+.fancl-logo{
+	display:block;
+	width:200px;
+	height:60px;
+	background:url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat 0 -60px;
+	margin:20px 0 0 30px;	
+	float:left;
+}
+
+.search-box{
+	width:590px;
+	height:95px;
+	line-height:110px;
+	float:right;
+}
+
+.search-box button{
+	width:460px;
+	height:32px;
+	border:1px solid #ccc;
+	background-color:#b22;
+	color:#fff;
+	font-size:15px;
+}
+
+.search-box button input{
+	width:390px;
+	height:30px;
+	border:none;
+	float:left;
+	font-size:13px;
+	padding-left:2px;
+	overflow: hidden;
+}
+
+/*firefox hack*/
+@-moz-document url-prefix()
+{
+	.search-box button input{
+		margin:-1px 0 0 -3px;
+	}
+}
+
+.search-box button span{
+	float:left;
+	width:60px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.search-box .shopcar{
+	display:block;
+	float:right;
+	width:110px;
+	height:32px;
+	line-height:30px;
+	cursor:pointer;
+	background:url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat -150px 0;
+	text-indent: 40px;
+	color:white;
+	margin-top:30px;
+}
+
+/*bottom-nav*/
+.bottom-nav{
+	width:1200px;
+	height:50px;
+	margin:0 auto;
+	font-size:16px;
+}
+
+.bottom-nav h2{
+	width:260px;
+	height:50px;
+	background:#b22;
+	color:white;
+	text-align: center;
+	line-height: 50px;
+	float:left;
+}
+
+.bottom-nav ul li a{
+	display: inline-block;
+	width:117.5px;
+	height:50px;
+	background-color: #efefef;
+	text-align: center;
+	line-height:50px;
+	float:left;
+	color:#999;
+}
+
+.bottom-nav ul li a:hover{
+	color:#b81c22;
+	background-color:#e5e6e6; 
+}
+
+/*------main--------*/
+#main{
+	width:1200px;
+	height:2341px;
+	margin:0 auto;
+	padding-top:1px;
+	font-family: "微软雅黑";
+	clear:both;
+}
+
+/*pic*/
+.pic-box{
+	width:1200px;
+	height:492px;
+	clear:both;
+}
+
+.pic-box .nav-list{
+	width:260px;
+	height:492px;
+	float:left;
+}
+
+.nav-list fieldset{
+	margin-top:10px;
+	border:1px solid #ccc;
+}
+
+.nav-list fieldset legend{
+	font-size:15px;
+	color:#b81c22;
+	margin-left:26px;
+	padding:0 4px;
+}
+
+fieldset h3{
+	color:#A3A2A2;
+	font-size:15px;
+	padding:10px 30px;
+	font-weight: normal;
+}
+
+fieldset ul{
+	padding:5px 18px 10px 18px;
+	border-bottom:1px solid #ccc;
+}
+
+fieldset ul li{
+	display: inline-block;
+}
+
+fieldset ul li a{
+	display:inline-block;
+	width:48px;
+	height:15px;
+	cursor: pointer;
+	text-align: center;
+}
+
+fieldset ul li a:hover{
+	color:#b81c22;
+	background-color: #edeeee;
+}
+
+fieldset ul li:first-child a:hover{
+	color:#b81c22;
+	background-color: #fff;
+}
+
+fieldset ul li:first-child a{
+	color:#c00;
+}
+
+fieldset ul:last-child{
+	border:none;
+}
+
+fieldset:nth-child(3) ul,fieldset:nth-child(4) ul{
+	margin:5px 0;
+}
+
+
+#pic-show{
+	width:710px;
+	height: 493px;
+	margin:15px 10px 0 10px;
+	float:left;
+}
+
+.clothe-example{
+	margin-top:15px;
+	width:210px;
+	height:493px;
+	float:right;
+}
+
+.clothe-example img{
+	display: block;
+	width:208px;
+	height:238px;
+	padding-bottom:15px;
+	border:1px solid #ccc;
+}
+
+.clothe-example img:first-child{
+	border-bottom: none;
+}
+
+.clearfix{
+	display: block;
+	width:100%;
+	height:30px;
+	clear:both;
+}
+
+/*hot-shop*/
+/*up-shop*/
+/*down-shop*/
+/*more*/
+.hot-shop,.up-shop,.down-shop,.more{
+	width:1200px;
+	margin:0 auto;
+}
+
+.hot-shop,..up-shop,.down-shop{
+	height:506px;
+}
+
+.more{
+	height: 268px;
+}
+
+.up-shop{
+	height:;
+}
+
+.hot-shop h3,.up-shop h3,.down-shop h3,.more h3{
+	margin:20px 0 10px 0;
+	padding-left:20px;
+	font-size:18px;
+	color:#595757;
+}
+
+.hot-shiop ul,.up-shop ul,.down-shop ul,.more ul,.more ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+.hot-shop ul li,.up-shop ul li,.down-shop ul li,.more ul li{
+	display: inline-block;
+	width:auto;
+	height:auto;
+	margin:2px;
+}
+
+.hot-shop ul li img,.up-shop ul li img,.down-shop ul li img,.more ul li img{
+	width:auto;
+	height:auto;
+}
+
+/*---------footer-------*/
+#footer{
+	width:100%;
+	height: auto;
+	padding-top:100px;
+}
+
+/*footer-top*/
+.footer-top{
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+}
+
+.footer-top ul{
+	width:100%;
+	height:150px;
+}
+
+.footer-top ul .out-item{
+	float:left;
+	width:198px;
+	height:150px;
+	border:1px solid #e0e0e1;
+	text-align:center;
+	padding-top:30px;
+	color:#595757;
+	border-right:none;
+}
+
+.footer-top ul .out-item:last-child{
+	border-right:1px solid #ccc;
+}
+
+.footer-top ul li a{
+	color:#595757;
+}
+
+.footer-top ul .out-item a{
+	font-size:14px;
+	font-family: "微软雅黑";
+}
+
+.footer-top ul ul{
+	margin-top:20px;
+}
+
+.footer-top ul .out-item ul li a{
+	display:block;
+	font-size:12px;
+	padding:3px 0;
+}
+
+/*firefox hack*/
+@-moz-document url-prefix()
+{
+	.footer-top ul .out-item ul li a{
+		font-size:12px;
+	}
+}
+
+/*safari hack*/
+@media screen and (-webkit-min-device-pixel-ratio:0) 
+{
+	.footer-top ul .out-item ul li a{
+		font-size:12px;
+	}
+}
+
+.footer-top ul .out-item ul li a:hover{
+	color:#b22;
+}
+
+/*footer-bottom*/
+.footer-bottom{
+	width:100%;
+	height:150px;
+}
+
+.footer-logo{
+	width:100%;
+	height:70px;
+	border-bottom:1px solid #000;
+	line-height:70px;
+}
+
+.footer-logo li{
+	display: inline-block;
+	margin-left:60px;
+}
+
+.footer-logo li a{
+	display:inline-block;
+	width:220px;
+	height:25px;
+}
+
+.footer-logo li:first-child a{
+	background:url(http://i2.vanclimg.com/cms/20140414/vanclsprite.png) no-repeat 88px -127px;
+}
+
+.footer-logo li:nth-child(2) a{
+	background:url(http://i2.vanclimg.com/cms/20140414/vanclsprite.png) no-repeat 70px -168px;
+}
+
+.footer-logo li:nth-child(3) a{
+	background:url(http://i2.vanclimg.com/cms/20140414/vanclsprite.png) no-repeat 70px -210px;
+}
+
+.footer-logo li:nth-child(4) a{
+	background:url(http://i2.vanclimg.com/cms/20140414/vanclsprite.png) no-repeat 70px -250px;
+}
+
+.copyright{
+	width:100%;
+	height:60px;
+	text-align: center;
+}
+
+.copyright p{
+	padding-top:10px;
+	color:#595757;
+}
+
+.cpr-pic{
+	width:1000px;
+	height:60px;
+	margin:20px auto 10px;
+	padding-left:200px;
+}
+
+.cpr-pic li{
+	display:inline-block;
+	width:160px;
+	height:45px;
+	float:left;
+}
+
+.cpr-pic li:first-child a{
+	display: inline-block;
+	width:120px;
+	height:45px;
+	background:url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat 0px -581px;
+}
+
+.cpr-pic li:nth-child(2) a{
+	display: inline-block;
+	width:160px;
+	height:50px;
+	background:url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat 0px -628px;
+}
+
+.cpr-pic li:nth-child(3) a{
+	display: inline-block;
+	width:95px;
+	height:45px;
+	margin-left:-20px;
+	background:url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat 0px -678px;
+}
+
+.cpr-pic li:nth-child(4) a{
+	display: inline-block;
+	width:100px;
+	height:45px;
+	margin-left:-100px;
+	background:url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat -100px -678px;
+}
+
+.cpr-pic li:nth-child(5) a{
+	display: inline-block;
+	width:100px;
+	height:45px;
+	margin-left:-170px;
+	background:url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat -200px -678px;
+}
+
+.cpr-pic li:last-child a img{
+	display: inline-block;
+	width:100px;
+	height:45px;
+	margin-left:-320px;
+}
+
+/*firefox hack*/
+@-moz-document url-prefix()
+{
+	.cpr-pic li:last-child a img{
+		margin-left:-220px;
+	}
+}
